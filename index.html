@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio acadêmico do Sistema de Gerenciamento de Atualizações de Clientes desenvolvido para a SCOD Solutions.">
+  <meta name="theme-color" content="#15182f">
+  <title>Sistema de Gerenciamento de Atualizações de Clientes</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2315182f'/%3E%3Cpath d='M16 19h32v7H23v7h18c6 0 9 3 9 9s-3 9-9 9H16v-7h25c1.5 0 2-.7 2-2s-.5-2-2-2H23c-5 0-8-3-8-9V19z' fill='%23df2777'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260914-3">
+  <script src="assets/js/config.js?v=20260914-3" defer></script>
+  <script src="assets/js/app.js?v=20260914-3" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Ir para o início">
+        <img src="assets/img/logo-scod.png" alt="SCOD Solutions" width="180" height="76">
+        <span class="brand-divider" aria-hidden="true"></span>
+        <span class="brand-context">Portfólio<br>de estágio</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+
+      <nav class="main-nav" id="menu-principal" aria-label="Navegação principal">
+        <a href="#sobre">Projeto</a>
+        <a href="#casos">Casos de uso</a>
+        <a href="#documentacao">Documentação</a>
+        <a href="#evidencias">Evidências</a>
+        <a href="#identificacao">Identificação</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span>Projeto de estágio</span><span>Engenharia de Software</span></p>
+          <h1>Sistema de Gerenciamento de <span>Atualizações de Clientes</span></h1>
+          <p class="hero-lead">Aplicação web desenvolvida para centralizar prazos contratuais, organizar a execução das atualizações e manter um histórico operacional confiável para a SCOD Solutions.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#sobre">Conhecer o projeto</a>
+            <a class="button button-secondary" href="#evidencias">Ver demonstração</a>
+          </div>
+          <p class="hero-authors">Desenvolvido por <strong>Pedro Alpino Levandowski</strong>.</p>
+        </div>
+
+        <aside class="overview-card" aria-label="Visão geral do projeto">
+          <div class="overview-heading">
+            <span class="live-dot" aria-hidden="true"></span>
+            <span>Situação do desenvolvimento</span>
+          </div>
+          <div class="metric-grid">
+            <div class="metric"><strong>6</strong><span>casos de uso</span></div>
+            <div class="metric"><strong>4</strong><span>implementados</span></div>
+            <div class="metric"><strong>1</strong><span>parcial</span></div>
+            <div class="metric"><strong>41</strong><span>testes automatizados</span></div>
+          </div>
+          <div class="progress-summary">
+            <div class="progress-label"><span>Casos de uso iniciados</span><strong>83%</strong></div>
+            <div class="progress-track" aria-label="Cinco de seis casos de uso iniciados"><span></span></div>
+            <p>Quatro módulos concluídos, painel parcialmente desenvolvido e relatórios programados.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="sobre">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker">01 · Sobre o projeto</p><h2>Da planilha manual à rastreabilidade</h2></div>
+          <p>O projeto transforma um processo operacional disperso em um fluxo único, organizado e auditável.</p>
+        </div>
+
+        <div class="problem-solution-grid">
+          <article class="feature-card feature-card-dark">
+            <span class="card-index">Antes</span>
+            <h3>O problema</h3>
+            <p>O controle das atualizações era realizado em planilhas, tornando a consulta lenta e aumentando o risco de prazos esquecidos, informações duplicadas e dificuldade para identificar responsáveis.</p>
+          </article>
+          <article class="feature-card feature-card-accent">
+            <span class="card-index">Agora</span>
+            <h3>A solução</h3>
+            <p>O sistema gera atualizações mensais com base nas datas contratuais dos clientes, permite executar e concluir cada atividade e preserva o histórico de responsáveis, horários, erros e comprovantes.</p>
+          </article>
+        </div>
+
+        <div class="objective-panel">
+          <div>
+            <p class="mini-label">Objetivo geral</p>
+            <h3>Centralizar o acompanhamento das atualizações periódicas de clientes.</h3>
+          </div>
+          <p>A aplicação apoia a equipe desde o cadastro dos contratos até a consulta do histórico, oferecendo informação consistente para o trabalho diário e para a tomada de decisão.</p>
+        </div>
+
+        <div class="content-grid architecture-grid">
+          <div>
+            <p class="mini-label">Tecnologias</p>
+            <h3>Base técnica do sistema</h3>
+            <div class="tech-list" aria-label="Tecnologias utilizadas">
+              <span>Python 3.12</span><span>Django 5.2</span><span>Django REST Framework</span><span>MySQL</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap 5</span><span>Git &amp; GitHub</span>
+            </div>
+          </div>
+          <div>
+            <p class="mini-label">Arquitetura</p>
+            <h3>Aplicação web em camadas</h3>
+            <div class="architecture-flow" aria-label="Fluxo da arquitetura">
+              <div><span>Interface</span><strong>Navegador</strong></div>
+              <span class="flow-arrow" aria-hidden="true">→</span>
+              <div><span>Aplicação</span><strong>Django</strong></div>
+              <span class="flow-arrow" aria-hidden="true">→</span>
+              <div><span>Dados</span><strong>MySQL</strong></div>
+            </div>
+            <p class="architecture-note">Organização modular em <code>core</code>, <code>usuarios</code>, <code>clientes</code> e <code>atualizacoes</code>, com API REST para integração.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="casos">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker">02 · Escopo e andamento</p><h2>Casos de uso desenvolvidos</h2></div>
+          <p>O cronograma abaixo foi atualizado para refletir o estado real do sistema.</p>
+        </div>
+
+        <div class="use-case-grid">
+          <article class="use-case-card status-partial">
+            <div class="use-case-top"><span>UC01</span><span class="status-pill partial">Parcial</span></div>
+            <h3>Acompanhar prazos e atualizações</h3>
+            <p>Painel com indicadores, dados reais e lista de atividades atrasadas. Gráficos e alertas antecipados permanecem em evolução.</p>
+          </article>
+          <article class="use-case-card status-done">
+            <div class="use-case-top"><span>UC02</span><span class="status-pill done">Implementado</span></div>
+            <h3>Gerenciar clientes</h3>
+            <p>Cadastro, edição, consulta, filtros, prazos contratuais e inativação lógica de clientes.</p>
+          </article>
+          <article class="use-case-card status-done">
+            <div class="use-case-top"><span>UC03</span><span class="status-pill done">Implementado</span></div>
+            <h3>Realizar atualização</h3>
+            <p>Geração mensal automática, início e conclusão do trabalho, responsáveis, erros, observações e arquivo comprobatório.</p>
+          </article>
+          <article class="use-case-card status-planned">
+            <div class="use-case-top"><span>UC04</span><span class="status-pill planned">Planejado</span></div>
+            <h3>Gerar e exportar relatórios</h3>
+            <p>Emissão de relatórios operacionais e exportação dos resultados. A interface já possui protótipo de referência.</p>
+          </article>
+          <article class="use-case-card status-done">
+            <div class="use-case-top"><span>UC05</span><span class="status-pill done">Implementado</span></div>
+            <h3>Gerenciar acessos e permissões</h3>
+            <p>Usuários, perfis de acesso, permissões por função e inativação lógica com preservação do histórico.</p>
+          </article>
+          <article class="use-case-card status-done">
+            <div class="use-case-top"><span>UC06</span><span class="status-pill done">Implementado</span></div>
+            <h3>Consultar histórico de atualizações</h3>
+            <p>Consulta somente leitura com filtros combináveis, detalhes da execução e acesso aos comprovantes.</p>
+          </article>
+        </div>
+
+        <div class="table-card">
+          <div class="table-title"><div><p class="mini-label">Cronograma</p><h3>Planejamento x execução</h3></div><span>Atualizado em 2026</span></div>
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th scope="col">Caso de uso</th><th scope="col">Período</th><th scope="col">Situação atual</th><th scope="col">Entrega principal</th></tr></thead>
+              <tbody>
+                <tr><td><strong>UC02</strong> · Gerenciar clientes</td><td>Maio/2026</td><td><span class="status-pill done">Implementado</span></td><td>Cadastro e controle dos prazos contratuais</td></tr>
+                <tr><td><strong>UC05</strong> · Acessos e permissões</td><td>Junho/2026</td><td><span class="status-pill done">Implementado</span></td><td>Perfis de acesso e usuários</td></tr>
+                <tr><td><strong>UC03</strong> · Realizar atualização</td><td>Agosto/2026</td><td><span class="status-pill done">Implementado</span></td><td>Execução, conclusão e comprovantes</td></tr>
+                <tr><td><strong>UC01</strong> · Acompanhar prazos</td><td>Agosto/2026</td><td><span class="status-pill partial">Parcial</span></td><td>Indicadores e atrasos no painel</td></tr>
+                <tr><td><strong>UC06</strong> · Consultar histórico</td><td>Agosto/2026</td><td><span class="status-pill done">Implementado</span></td><td>Pesquisa e rastreabilidade</td></tr>
+                <tr><td><strong>UC04</strong> · Relatórios</td><td>Outubro/2026</td><td><span class="status-pill planned">Planejado</span></td><td>Relatórios e exportações</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="documentacao">
+      <div class="container">
+        <div class="section-heading light">
+          <div><p class="section-kicker">03 · Documentação</p><h2>Artefatos do projeto</h2></div>
+          <p>Cada botão possui o endereço público correspondente no Google Drive.</p>
+        </div>
+
+        <div class="document-grid">
+          <article class="document-card" data-document-card><span class="doc-type">Visão</span><h3>Documento de visão</h3><p>Problema, posicionamento, envolvidos, necessidades priorizadas e visão geral da solução.</p><a class="text-link" data-link-key="documentoVisao" data-ready-label="Abrir no Google Drive">Abrir no Google Drive <span aria-hidden="true">↗</span></a></article>
+          <article class="document-card" data-document-card><span class="doc-type">Requisitos</span><h3>Especificação suplementar</h3><p>Usabilidade, confiabilidade, desempenho, segurança, interfaces e restrições técnicas.</p><a class="text-link" data-link-key="especificacaoSuplementar" data-ready-label="Abrir no Google Drive">Adicionar link <span aria-hidden="true">↗</span></a></article>
+          <article class="document-card" data-document-card><span class="doc-type">Negócio · v3.0</span><h3>Pedidos do investidor</h3><p>Entrevista, problemas do processo manual, critérios de sucesso e prioridades da SCOD Solutions.</p><a class="text-link" data-link-key="pedidosInvestidor" data-ready-label="Abrir no Google Drive">Adicionar link <span aria-hidden="true">↗</span></a></article>
+          <article class="document-card" data-document-card><span class="doc-type">Vocabulário</span><h3>Glossário</h3><p>Definição dos termos de negócio e conceitos usados nos documentos e no sistema.</p><a class="text-link" data-link-key="glossario" data-ready-label="Abrir no Google Drive">Adicionar link <span aria-hidden="true">↗</span></a></article>
+          <article class="document-card" data-document-card><span class="doc-type">Planejamento</span><h3>Plano de estágio</h3><p>Objetivos, modelagem, recursos, interfaces projetadas e cronograma das atividades.</p><a class="text-link" data-link-key="planoEstagio" data-ready-label="Abrir no Google Drive">Adicionar link <span aria-hidden="true">↗</span></a></article>
+          <article class="document-card" data-document-card><span class="doc-type">UC02 · v2.0</span><h3>Gerenciar clientes</h3><p>Cadastro, edição, busca, validação dos dias contratuais e atualização da base de clientes.</p><a class="text-link" data-link-key="especificacaoUC02" data-ready-label="Abrir no Google Drive">Adicionar link <span aria-hidden="true">↗</span></a></article>
+          <article class="document-card" data-document-card><span class="doc-type">UC03 · v1.0</span><h3>Realizar atualização</h3><p>Geração automática, execução, conclusão, atrasos, erros e comprovantes da atualização.</p><a class="text-link" data-link-key="especificacaoUC03" data-ready-label="Abrir no Google Drive">Adicionar link <span aria-hidden="true">↗</span></a></article>
+          <article class="document-card" data-document-card><span class="doc-type">UC05 · v1.1</span><h3>Acessos e permissões</h3><p>Criação, edição, inativação e reativação de usuários conforme o perfil de acesso.</p><a class="text-link" data-link-key="especificacaoUC05" data-ready-label="Abrir no Google Drive">Adicionar link <span aria-hidden="true">↗</span></a></article>
+          <article class="document-card" data-document-card><span class="doc-type">UC06 · v1.0</span><h3>Consultar histórico</h3><p>Filtros, detalhamento, comprovantes e consulta dos registros em modo somente leitura.</p><a class="text-link" data-link-key="especificacaoUC06" data-ready-label="Abrir no Google Drive">Adicionar link <span aria-hidden="true">↗</span></a></article>
+        </div>
+
+        <div class="gallery-block">
+          <div class="subsection-heading"><div><p class="mini-label">Modelagem</p><h3>Diagramas do sistema</h3></div><p>Amplie a imagem ou abra o documento completo no Drive.</p></div>
+          <div class="gallery-grid gallery-grid-featured">
+            <article class="media-entry">
+              <button class="media-card featured" type="button" data-lightbox="assets/img/diagramas/casos-de-uso.png" data-caption="Diagrama geral de casos de uso"><span class="media-frame"><img src="assets/img/diagramas/casos-de-uso.png" alt="Diagrama geral de casos de uso do sistema" loading="lazy"></span><span class="media-copy"><strong>Casos de uso</strong><small>Visão geral das funcionalidades e atores</small></span></button>
+              <a class="drive-link" data-link-key="diagramaCasosDeUso" data-empty-label="Adicionar link do Drive" data-ready-label="Abrir no Google Drive">Adicionar link do Drive</a>
+            </article>
+            <article class="media-entry">
+              <button class="media-card featured" type="button" data-lightbox="assets/img/diagramas/classes.png" data-caption="Diagrama de classes"><span class="media-frame"><img src="assets/img/diagramas/classes.png" alt="Diagrama de classes do sistema" loading="lazy"></span><span class="media-copy"><strong>Diagrama de classes</strong><small>Estrutura das entidades e seus relacionamentos</small></span></button>
+              <a class="drive-link" data-link-key="diagramaClasses" data-empty-label="Adicionar link do Drive" data-ready-label="Abrir no Google Drive">Adicionar link do Drive</a>
+            </article>
+            <article class="media-entry">
+              <button class="media-card featured" type="button" data-lightbox="assets/img/diagramas/implantacao.png" data-caption="Diagrama de implantação"><span class="media-frame"><img src="assets/img/diagramas/implantacao.png" alt="Diagrama de implantação da aplicação" loading="lazy"></span><span class="media-copy"><strong>Implantação</strong><small>Componentes e ambiente da solução</small></span></button>
+              <a class="drive-link" data-link-key="diagramaImplantacao" data-empty-label="Adicionar link do Drive" data-ready-label="Abrir no Google Drive">Adicionar link do Drive</a>
+            </article>
+          </div>
+
+          <details class="diagram-group">
+            <summary><span>Diagramas de sequência</span><small>6 artefatos</small></summary>
+            <div class="diagram-links"><a class="drive-link" data-link-key="diagramasSequencia" data-empty-label="Adicionar link dos diagramas de sequência" data-ready-label="Abrir diagramas de sequência no Drive">Adicionar link dos diagramas de sequência</a></div>
+            <div class="gallery-grid compact-gallery">
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/sequencia-cadastrar-clientes.png" data-caption="Sequência — Cadastrar cliente"><span class="media-frame"><img src="assets/img/diagramas/sequencia-cadastrar-clientes.png" alt="Diagrama de sequência para cadastrar cliente" loading="lazy"></span><span class="media-copy"><strong>Cadastrar cliente</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/sequencia-editar-cliente.png" data-caption="Sequência — Editar cliente"><span class="media-frame"><img src="assets/img/diagramas/sequencia-editar-cliente.png" alt="Diagrama de sequência para editar cliente" loading="lazy"></span><span class="media-copy"><strong>Editar cliente</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/sequencia-acessos.png" data-caption="Sequência — Gerenciar acessos e permissões"><span class="media-frame"><img src="assets/img/diagramas/sequencia-acessos.png" alt="Diagrama de sequência para gerenciar acessos" loading="lazy"></span><span class="media-copy"><strong>Acessos e permissões</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/sequencia-inativar-usuario.png" data-caption="Sequência — Inativar usuário"><span class="media-frame"><img src="assets/img/diagramas/sequencia-inativar-usuario.png" alt="Diagrama de sequência para inativar usuário" loading="lazy"></span><span class="media-copy"><strong>Inativar usuário</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/sequencia-realizar-atualizacao.png" data-caption="Sequência — Realizar atualização"><span class="media-frame"><img src="assets/img/diagramas/sequencia-realizar-atualizacao.png" alt="Diagrama de sequência para realizar atualização" loading="lazy"></span><span class="media-copy"><strong>Realizar atualização</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/sequencia-historico.png" data-caption="Sequência — Consultar histórico"><span class="media-frame"><img src="assets/img/diagramas/sequencia-historico.png" alt="Diagrama de sequência para consultar histórico" loading="lazy"></span><span class="media-copy"><strong>Consultar histórico</strong></span></button>
+            </div>
+          </details>
+
+          <details class="diagram-group">
+            <summary><span>Estados, dados e processo</span><small>6 artefatos</small></summary>
+            <div class="diagram-links">
+              <a class="drive-link" data-link-key="diagramasEstado" data-empty-label="Adicionar link dos diagramas de estado" data-ready-label="Abrir diagramas de estado no Drive">Adicionar link dos diagramas de estado</a>
+              <a class="drive-link" data-link-key="diagramasDER" data-empty-label="Adicionar link do DER" data-ready-label="Abrir DER no Google Drive">Adicionar link do DER</a>
+              <a class="drive-link" data-link-key="workflowAsIs" data-empty-label="Adicionar link do workflow" data-ready-label="Abrir workflow no Google Drive">Adicionar link do workflow</a>
+            </div>
+            <div class="gallery-grid compact-gallery">
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/estado-clientes.png" data-caption="Estado — Gerenciar clientes"><span class="media-frame"><img src="assets/img/diagramas/estado-clientes.png" alt="Diagrama de estado do gerenciamento de clientes" loading="lazy"></span><span class="media-copy"><strong>Estado de clientes</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/estado-acessos.png" data-caption="Estado — Gerenciar acessos"><span class="media-frame"><img src="assets/img/diagramas/estado-acessos.png" alt="Diagrama de estado do gerenciamento de acessos" loading="lazy"></span><span class="media-copy"><strong>Estado de acessos</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/estado-atualizacao.png" data-caption="Estado — Realizar atualização"><span class="media-frame"><img src="assets/img/diagramas/estado-atualizacao.png" alt="Diagrama de estado da realização de atualização" loading="lazy"></span><span class="media-copy"><strong>Estado da atualização</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/der-conceitual.png" data-caption="DER conceitual"><span class="media-frame"><img src="assets/img/diagramas/der-conceitual.png" alt="Diagrama entidade-relacionamento conceitual" loading="lazy"></span><span class="media-copy"><strong>DER conceitual</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/der-logico.png" data-caption="DER lógico"><span class="media-frame"><img src="assets/img/diagramas/der-logico.png" alt="Diagrama entidade-relacionamento lógico" loading="lazy"></span><span class="media-copy"><strong>DER lógico</strong></span></button>
+              <button class="media-card" type="button" data-lightbox="assets/img/diagramas/workflow-as-is.png" data-caption="Workflow AS-IS"><span class="media-frame"><img src="assets/img/diagramas/workflow-as-is.png" alt="Workflow AS-IS do processo de atualização" loading="lazy"></span><span class="media-copy"><strong>Workflow AS-IS</strong></span></button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="evidencias">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker">04 · Evidências</p><h2>Interfaces e demonstração</h2></div>
+          <p>As capturas registram as telas já implementadas; o módulo de relatórios permanece apresentado como protótipo.</p>
+        </div>
+
+        <div class="evidence-notice"><strong>Evidências atualizadas</strong><span>As seis telas implementadas usam capturas reais do sistema. Relatórios permanece identificado como protótipo por ainda estar planejado.</span></div>
+        <div class="screen-gallery">
+          <button class="screen-card" type="button" data-lightbox="assets/img/telas/login.png?v=20260914-3" data-caption="Tela implementada — Login"><img src="assets/img/telas/login.png?v=20260914-3" alt="Tela implementada de login" loading="lazy"><span><strong>Login</strong><small>Acesso autenticado</small></span></button>
+          <button class="screen-card" type="button" data-lightbox="assets/img/telas/dashboard.png?v=20260914-3" data-caption="Tela implementada — Painel"><img src="assets/img/telas/dashboard.png?v=20260914-3" alt="Tela implementada do painel" loading="lazy"><span><strong>Painel</strong><small>Indicadores e acompanhamento</small></span></button>
+          <button class="screen-card" type="button" data-lightbox="assets/img/telas/clientes.png?v=20260914-3" data-caption="Tela implementada — Clientes"><img src="assets/img/telas/clientes.png?v=20260914-3" alt="Tela implementada do gerenciamento de clientes" loading="lazy"><span><strong>Clientes</strong><small>Cadastros e prazos</small></span></button>
+          <button class="screen-card" type="button" data-lightbox="assets/img/telas/atualizacoes.png?v=20260914-3" data-caption="Tela implementada — Histórico de atualizações"><img src="assets/img/telas/atualizacoes.png?v=20260914-3" alt="Tela implementada do histórico de atualizações" loading="lazy"><span><strong>Histórico</strong><small>Consulta e rastreabilidade</small></span></button>
+          <button class="screen-card" type="button" data-lightbox="assets/img/telas/realizar-atualizacao.png?v=20260914-3" data-caption="Tela implementada — Concluir atualização"><img src="assets/img/telas/realizar-atualizacao.png?v=20260914-3" alt="Tela implementada de conclusão da atualização" loading="lazy"><span><strong>Conclusão</strong><small>Registro da execução</small></span></button>
+          <button class="screen-card" type="button" data-lightbox="assets/img/telas/usuarios.png?v=20260914-3" data-caption="Tela implementada — Usuários"><img src="assets/img/telas/usuarios.png?v=20260914-3" alt="Tela implementada do gerenciamento de usuários" loading="lazy"><span><strong>Usuários</strong><small>Acessos e permissões</small></span></button>
+          <button class="screen-card" type="button" data-lightbox="assets/img/telas/relatorios.png" data-caption="Protótipo — Relatórios"><img src="assets/img/telas/relatorios.png" alt="Protótipo da emissão de relatórios" loading="lazy"><span><strong>Relatórios</strong><small>Planejamento do UC04</small></span></button>
+        </div>
+
+        <div class="video-section">
+          <div class="video-copy">
+            <p class="mini-label">Vídeo de apresentação</p>
+            <h3>Demonstração do sistema</h3>
+            <p>Apresentação de até cinco minutos com o fluxo principal, os casos de uso implementados e os resultados alcançados.</p>
+            <div class="video-topics"><span>01 · Contexto</span><span>02 · Funcionalidades</span><span>03 · Resultados</span></div>
+          </div>
+          <div class="video-frame" id="video-frame">
+            <div class="video-placeholder" id="video-placeholder">
+              <span class="play-icon" aria-hidden="true">▶</span>
+              <strong>Vídeo ainda não configurado</strong>
+              <p>Cole o link público do YouTube no campo <code>youtube</code> do arquivo de configuração.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-report" id="relatorio">
+      <div class="container report-card">
+        <div class="report-mark" aria-hidden="true">DOCX</div>
+        <div class="report-copy"><p class="section-kicker">05 · Relatório de estágio</p><h2>Relatório atualizado</h2><p>Documento completo com contextualização, atividades desenvolvidas, resultados, dificuldades encontradas e considerações finais.</p></div>
+        <a class="button button-light" data-link-key="relatorioEstagio" data-ready-label="Abrir relatório">Adicionar link do relatório</a>
+      </div>
+    </section>
+
+    <section class="section" id="identificacao">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker">06 · Identificação</p><h2>Equipe acadêmica</h2></div>
+          <p>Projeto desenvolvido no curso de Bacharelado em Engenharia de Software da UniFil.</p>
+        </div>
+        <div class="identity-grid">
+          <article class="person-card"><span class="person-initials">PL</span><div><p class="mini-label">Acadêmico</p><h3>Pedro Alpino Levandowski</h3><p>Matrícula: <strong data-config-text="identificacao.matriculaPedro" data-placeholder="15130084985">15130084985</strong></p></div></article>
+          <article class="person-card"><span class="person-initials mentor">PO</span><div><p class="mini-label">Professor orientador</p><h3 data-config-text="identificacao.professorOrientador" data-placeholder="João Marcos Ventura Bortolotti">João Marcos Ventura Bortolotti</h3><p>Centro Universitário Filadélfia — UniFil</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><img src="assets/img/logo-scod.png" alt="SCOD Solutions" width="142" height="60"><p>Sistema de Gerenciamento de Atualizações de Clientes</p></div>
+      <div class="footer-links"><button class="back-to-top" type="button" data-back-to-top>Voltar ao topo ↑</button></div>
+      <p class="copyright">© <span id="current-year">2026</span> · Portfólio acadêmico</p>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Visualização ampliada">
+    <div class="lightbox-toolbar">
+      <p id="lightbox-caption"></p>
+      <div class="zoom-controls" aria-label="Controles de zoom">
+        <button type="button" data-zoom-out aria-label="Diminuir zoom">−</button>
+        <button type="button" data-zoom-reset aria-label="Restaurar zoom"><span id="zoom-value">100%</span></button>
+        <button type="button" data-zoom-in aria-label="Aumentar zoom">+</button>
+        <button class="close-lightbox" type="button" data-lightbox-close aria-label="Fechar visualização">×</button>
+      </div>
+    </div>
+    <div class="lightbox-stage" id="lightbox-stage"><div class="lightbox-canvas" id="lightbox-canvas"><img id="lightbox-image" src="" alt=""></div></div>
+  </dialog>
+</body>
+</html>
