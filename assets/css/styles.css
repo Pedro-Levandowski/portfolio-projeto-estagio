@@ -336,8 +336,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
   .diagram-links { grid-template-columns: 1fr; }
   .feature-card { min-height: 270px; padding: 27px; }
   .objective-panel { padding: 26px; }
-  .architecture-flow { grid-template-columns: 1fr; }
-  .flow-arrow { transform: rotate(90deg); }
+  .architecture-flow { display: flex; flex-direction: column; gap: 0; }
+  .architecture-flow > div { width: 100%; }
+  .architecture-flow > .flow-arrow { width: 100%; min-height: 44px; display: grid; place-items: center; transform: none; font-size: 0 !important; line-height: 1; }
+  .architecture-flow > .flow-arrow::before { content: "↓"; font-size: 1.45rem; line-height: 1; }
   .table-title, .subsection-heading { align-items: flex-start; flex-direction: column; }
   .table-title { padding: 22px; }
   th, td { padding: 14px 16px; }
